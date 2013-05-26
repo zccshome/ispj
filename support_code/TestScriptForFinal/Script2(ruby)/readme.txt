@@ -1,1 +1,0 @@
-该脚本用于测试你的返回消息是否正确，命令为ruby simpleirc.rb [server-ip-port]
