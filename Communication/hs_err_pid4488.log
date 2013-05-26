@@ -1,0 +1,82 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2924), pid=4488, tid=5992
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (10.0-b22 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0196e400):  JavaThread "Unknown thread" [_thread_in_vm, id=5992, stack(0x00330000,0x00380000)]
+
+Stack: [0x00330000,0x00380000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0196e400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5992, stack(0x00330000,0x00380000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Program Files\Java\jre1.6.0_06\bin\javaw.exe
+0x76d90000 - 0x76ecc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x765d0000 - 0x766a4000 	C:\Windows\system32\kernel32.dll
+0x74fb0000 - 0x74ffa000 	C:\Windows\system32\KERNELBASE.dll
+0x76460000 - 0x76500000 	C:\Windows\system32\ADVAPI32.dll
+0x76f10000 - 0x76fbc000 	C:\Windows\system32\msvcrt.dll
+0x754a0000 - 0x754b9000 	C:\Windows\SYSTEM32\sechost.dll
+0x76ce0000 - 0x76d81000 	C:\Windows\system32\RPCRT4.dll
+0x76500000 - 0x765c9000 	C:\Windows\system32\USER32.dll
+0x75230000 - 0x7527e000 	C:\Windows\system32\GDI32.dll
+0x751f0000 - 0x751fa000 	C:\Windows\system32\LPK.dll
+0x75400000 - 0x7549d000 	C:\Windows\system32\USP10.dll
+0x76ee0000 - 0x76eff000 	C:\Windows\system32\IMM32.DLL
+0x76c10000 - 0x76cdc000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jre1.6.0_06\bin\msvcr71.dll
+0x6d7c0000 - 0x6da10000 	C:\Program Files\Java\jre1.6.0_06\bin\client\jvm.dll
+0x73640000 - 0x73672000 	C:\Windows\system32\WINMM.dll
+0x74e10000 - 0x74e5b000 	C:\Windows\system32\apphelp.dll
+0x6d270000 - 0x6d278000 	C:\Program Files\Java\jre1.6.0_06\bin\hpi.dll
+0x76f00000 - 0x76f05000 	C:\Windows\system32\PSAPI.DLL
+0x6d770000 - 0x6d77c000 	C:\Program Files\Java\jre1.6.0_06\bin\verify.dll
+0x6d310000 - 0x6d32f000 	C:\Program Files\Java\jre1.6.0_06\bin\java.dll
+0x6d7b0000 - 0x6d7bf000 	C:\Program Files\Java\jre1.6.0_06\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\Software\adt-bundle-windows-x86-20130219\sdk\platforms\android-14\android.jar 
+java_command: server.ServerDemo
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jre1.6.0_06/bin/client;C:/Program Files/Java/jre1.6.0_06/bin;C:/Program Files/Java/jre1.6.0_06/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\FTP\mysql-connector-java-5.0.3-bin.jar;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\AppServ\Apache2.2\bin;D:\Program Files\AppServ\php5;D:\Program Files\AppServ\MySQL\bin;D:\Software\adt-bundle-windows-x86-20130219\eclipse;
+USERNAME=admin
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 10 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 2097151k(1102588k free), swap 4194303k(3793296k free)
+
+vm_info: Java HotSpot(TM) Client VM (10.0-b22) for windows-x86 JRE (1.6.0_06-b02), built on Mar 25 2008 01:22:05 by "java_re" with MS VC++ 7.1
+
+time: Sat May 11 14:26:37 2013
+elapsed time: 0 seconds
+
